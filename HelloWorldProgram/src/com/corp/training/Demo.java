@@ -1,3 +1,4 @@
+package com.corp.training;
 
 public class Demo {
 
