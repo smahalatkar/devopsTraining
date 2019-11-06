@@ -2,7 +2,7 @@ package com.training.demo.model;
 
 public class Employee {
 
-	public Employee(Integer id, String firstName, String lastName, String email) {
+	public Employee( final Integer id, final String firstName, final String lastName, final String email) {
 		super();
 		this.id = id;
 		this.firstName = firstName;
@@ -16,25 +16,25 @@ public class Employee {
 	public Integer getId() {
 		return id;
 	}
-	public void setId(Integer id) {
+	public void setId(final Integer id) {
 		this.id = id;
 	}
 	public String getFirstName() {
 		return firstName;
 	}
-	public void setFirstName(String firstName) {
+	public void setFirstName(final String firstName) {
 		this.firstName = firstName;
 	}
 	public String getLastName() {
 		return lastName;
 	}
-	public void setLastName(String lastName) {
+	public void setLastName(final String lastName) {
 		this.lastName = lastName;
 	}
 	public String getEmail() {
 		return email;
 	}
-	public void setEmail(String email) {
+	public void setEmail(final String email) {
 		this.email = email;
 	}
 	
